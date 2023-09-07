@@ -1,76 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
 .container{
     position: relative;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     margin: 0 auto;
     background-image: url('./img/test_bg.jpg');
     background-size: cover;
+    background-position: center;
 }
+
+
 .button{
-    position: absolute;
+   position: absolute;
     width: 41px;
     height: 41px;
     border-radius: 50%;
-    
+    transition: all 0.25s ease-in-out;
 }
 .button:before{
     display: block;
     content: '+';
     color:#FFFFFF;
     font-size: 200%;
-    transition: all 0.25s ease-in-out;
+    top: 10%;
+    left: 10%;
 }
 .button:hover{
     cursor: pointer;
 }
+.open{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#FFFFFF;
+    width:max-content;
+    width: max-content;
+    padding: 0% 1% 0 2%;   
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 17px;
+    transition: all 0.25s ease-in-out;
+}
+.open:before{
+    position: absolute;
+    display: block;
+    top: 10%;
+    left: 10%;
+    content: '-';
+    color:#FFFFFF;
+    font-size: 200%;
+    
+}
 .one{
     top: 49%;
-    right: 62%;
+    left:35%;
     background-color: #6ABF4B;
-
+    border:1px solid #6ABF4B;
 }
 .two{
-    top: 43%;
+    top: 40%;
     left: 60%;
     background-color: #6ABF4B;
+    border:1px solid #6ABF4B;
 }
 .three{
-    top: 86%;
+    top: 77%;
     left: 60%;
     background-color: #6ABF4B;
+    border:1px solid #6ABF4B;
 }
 .four{
-    top: 67%;
+    top: 62%;
     left: 69%;
     background-color: #6ABF4B;
+    border:1px solid #6ABF4B;
 }
 .five{
-    top: 30%;
+    top: 25%;
     left: 26%;
     background-color: #3877EE;
+    border:1px solid #3877EE;
 }
 .six{
-    top: 21%;
+    top: 17%;
     left: 72%;
     background-color: #3877EE;
+    border:1px solid #3877EE;
 }
 .seven{
-    top: 49%;
+    top: 45%;
     left: 74%;
     background-color: #3877EE;
+    border:1px solid #3877EE;
 }
 .eight{
-    top: 78%;
+    top: 71%;
     left: 87%;
     background-color: #3877EE;
+    border:1px solid #3877EE;
 }
 .nine{
-    top: 67%;
+    top: 59%;
     left: 55%;
     background-color: #3877EE;
+    border:1px solid #3877EE;
 }
 .ten{
-    top: 75%;
-    left: 22%;
+    top: 66%;
+    left: 425px;
+    
     background-color: #3877EE;
+    border:1px solid #3877EE;
 }

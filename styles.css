@@ -1,3 +1,76 @@
-h2{
-    color:red;
+.container{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url('./img/test_bg.jpg');
+    background-size: cover;
+}
+.button{
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    
+}
+.button:before{
+    display: block;
+    content: '+';
+    color:#FFFFFF;
+    font-size: 200%;
+    transition: all 0.25s ease-in-out;
+}
+.button:hover{
+    cursor: pointer;
+}
+.one{
+    top: 49%;
+    right: 62%;
+    background-color: #6ABF4B;
+
+}
+.two{
+    top: 43%;
+    left: 60%;
+    background-color: #6ABF4B;
+}
+.three{
+    top: 86%;
+    left: 60%;
+    background-color: #6ABF4B;
+}
+.four{
+    top: 67%;
+    left: 69%;
+    background-color: #6ABF4B;
+}
+.five{
+    top: 30%;
+    left: 26%;
+    background-color: #3877EE;
+}
+.six{
+    top: 21%;
+    left: 72%;
+    background-color: #3877EE;
+}
+.seven{
+    top: 49%;
+    left: 74%;
+    background-color: #3877EE;
+}
+.eight{
+    top: 78%;
+    left: 87%;
+    background-color: #3877EE;
+}
+.nine{
+    top: 67%;
+    left: 55%;
+    background-color: #3877EE;
+}
+.ten{
+    top: 75%;
+    left: 22%;
+    background-color: #3877EE;
 }

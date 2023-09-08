@@ -21,39 +21,47 @@ picture.addEventListener('click', (e)=>{
 
 
         
-    ;
-window.addEventListener('resize',() => {
-    const width= document.body.clientWidth,
-    one=document.querySelector('.one'),
-    two=document.querySelector('.two'),
-    three=document.querySelector('.three'),
-    four=document.querySelector('.four'),
-    five=document.querySelector('.five'),
-    six=document.querySelector('.six'),
-    seven=document.querySelector('.seven'),
-    eight=document.querySelector('.eight'),
-    nine=document.querySelector('.nine'),
-    ten=document.querySelector('.ten');
+    
+// window.addEventListener('resize',() => {
+//     const width= document.body.clientWidth,
+//     one=document.querySelector('.one'),
+//     two=document.querySelector('.two'),
+//     three=document.querySelector('.three'),
+//     four=document.querySelector('.four'),
+//     five=document.querySelector('.five'),
+//     six=document.querySelector('.six'),
+//     seven=document.querySelector('.seven'),
+//     eight=document.querySelector('.eight'),
+//     nine=document.querySelector('.nine'),
+//     ten=document.querySelector('.ten');
 
 
-    const calculateLeft= (el, position) => {
-        const left=(position-((1920-width)/2));
-        left > width ? 
-        el.style.display=`none`:
-        el.style.display=`block`;
-        el.style.left=`${left}px`;
-    }
- calculateLeft(one, 666);
- calculateLeft(two, 1160);
- calculateLeft(three, 1200);
- calculateLeft(four, 1300);
- calculateLeft(five, 500);
- calculateLeft(six, 1400);
- calculateLeft(seven, 1400);
- calculateLeft(eight, 1700);
- calculateLeft(nine, 1100);
- calculateLeft(ten, 425);
+//     // const calculateLeft= (el, position) => {
+//     //     const left=(position-((1920-width)/2));
+//     //     left > width ? 
+//     //     el.style.display=`none`:
+//     //     el.style.display=`block`;
+//     //     el.style.left=`${left}px`;
+//     // }
+
+//     const calculateLeft = function(el,position,differece){
+//         const left = (position + ((1920 - width)/100)*differece);
+//         left > width ? 
+//             el.style.display=`none`:
+//             el.style.display=`block`;
+//             el.style.left=`${left}px`;
+//     };
+//  calculateLeft(one, 665, 35);
+//  calculateLeft(two, 1160, 70);
+//  calculateLeft(three, 1200, 65);
+//  calculateLeft(four, 1300, 65);
+//  calculateLeft(five, 500, 25);
+//  calculateLeft(six, 1400, 72);
+//  calculateLeft(seven, 1400, 72);
+//  calculateLeft(eight, 1700, 90);
+//  calculateLeft(nine, 1100, 60);
+//  calculateLeft(ten, 425, 24);
   
-});
+// });
 
 
